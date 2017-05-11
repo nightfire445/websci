@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Zipcode Weather</title>
+  </head>
+  <body>
+    <form action="" id="query-form">
+      <div>
+        <input id="query" autocomplete="off" placeholder="Query" />
+      </div>
+      <div>
+        <input type="number"  id="num_tweets" autocomplete="off" placeholder="Number of Tweets" />
+      </div>
+      
+      <button id="select">Query</button>
+    </form>
+
+  <ul id = "tweets"></ul>
+  </body>
+  <script src="./client_socket.io.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/client.js"></script>

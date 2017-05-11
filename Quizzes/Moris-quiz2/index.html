@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Quiz2</title>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    
+  </head> 
+  <body >
+
+    <div class="jumbotron col-sm-12" >
+     <div class = "container col-sm-2 col-sm-offset-5  text-center " id = "Weather">
+     </div>
+      
+    </div>
+
+    <form action="" id="zip-form">
+      <div>
+        <input type="number"  id="zip" autocomplete="off" placeholder="Zipcode" />
+      </div>
+      
+      <button id="select">Add</button>
+    </form>
+
+    <form action="" id="display-form" hidden>
+      <button id="select">Display</button>
+    </form>
+
+     <form action="" id="output-form" >
+      <button id="select">Output</button>
+    </form>
+
+
+    <div class="container-fluid">
+        <div class = "row">
+
+          <ul class = "col-sm-7 col-sm-offset-4 forecast_feed " id = "Forecast" > </ul>
+             
+        </div>
+        
+    </div>
+   <ul id = "weathers"></ul>
+  </body>
+  <script src="./client_socket.io.js"></script>
+  <script src="./quiz2client.js"></script>
+</html>

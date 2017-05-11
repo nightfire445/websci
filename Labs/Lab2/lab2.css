@@ -1,0 +1,51 @@
+.threeH, .daily, .temperature, .cloudbox {	
+
+	border: 2px solid black;
+    border-radius: 8px;
+
+
+}
+
+.temperature, .cloudbox{
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom:5%;
+}
+
+
+
+#daily_0, #ThreeH_Group_0{
+	background: #7FFF00;
+
+}
+#daily_1, #ThreeH_Group_1{
+	background: #4286f4;
+	
+}
+#daily_2, #ThreeH_Group_2{
+	 background: #FF00FF;
+	
+}
+#daily_3, #ThreeH_Group_3{
+	background: red;
+	
+}
+#daily_4, #ThreeH_Group_4{
+	 background: orange;
+	
+}
+
+.title{
+	font-weight: bold;
+
+}
+
+.daily{
+	text-align: center;
+}
+
+.threeH{
+
+	background: inherit;
+
+}

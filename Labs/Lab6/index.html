@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Web Sci Lab6</title>
+  </head>
+  <body>
+    <form action="" id="query-form">
+      
+        <input id="query" autocomplete="off" placeholder="Query" />
+        <input type="number"  id="num_tweets" autocomplete="off" placeholder="Number of Tweets" />
+      <button id="select">Query</button>
+    </form>
+
+    <form action="" id = "export-form">
+      <select id = "format">
+        <option value = "CSV">CSV</option>
+        <option value = "JSON">JSON</option>
+      </select>  
+      <button id="export">Export</button>
+    </form>
+
+  <ul id = "tweets"></ul>
+  </body>
+  <script src="./client_socket.io.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/client.js"></script>

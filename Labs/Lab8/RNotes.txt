@@ -1,0 +1,5 @@
+? is data.frame just a n dimensional vector
+? differences between linear regression and logistic regression
+- I think logistic regression resolves to +- 1 wheres linear has much more output values
+? what is a nonparametric local regression function?
+? whats a we

@@ -1,0 +1,12 @@
+{
+  "name": "Quiz1Server",
+  "version": "0.0.1",
+  "description": "Solution to problem 2 from quiz",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.4",
+    "bson" : "^0.4.21"
+},
+"license": "UNLICENSED",
+"repository": "None"
+}

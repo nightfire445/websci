@@ -1,0 +1,2 @@
+
+Tried doing the db connection outside of the build and read sections to avoid duplicated code but for some reason the build wouldn't doing anything despite having a valid db connection, but it worked when I created the connection inside the build section. Perhaps this is due to the build being in the Twitter.on() function call, not sure though. Wrote a helper function connectMongo() that returns the db connection to reduce some of the repeated code; it did the trick.
